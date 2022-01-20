@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+    min-height: 100vh;
+}
+
+/* =========== HEADER STYLES =========== */
+
+header {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.active {
+  border-bottom: 1px solid rgb(35, 121, 10);
+}
+
+.logo-container {
+  position: absolute;
+  left: 5%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.logo-img { 
+  height: 44px;
+  width: auto;
+  margin: auto;
+}
+
+.logo-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  color: #000;
+}
+
+
+
+/* =========== FOOTER STYLES =========== */
+footer {
+  background-color: #000;
+  color: #fefefe;
+  height: 250px;
+}
