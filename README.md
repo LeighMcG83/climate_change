@@ -7,12 +7,12 @@ and to bring awareness to some of the larger issues facing the world today.
 
 
 ### Technologies used during this project
-- HTM%
+- HTML5
 - CSS3
 - Javascript (ES6)
 
 
-### week 1
+### Week 1
 - created html for all pages in the site
 - created a navbar using flexbox
 
