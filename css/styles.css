@@ -66,6 +66,43 @@ nav {
 /* =========== FOOTER STYLES =========== */
 footer {
   background-color: #000;
-  color: #fefefe;
   height: 250px;
+  padding: 2.5% 5% 7.5% 5%;
+  font-family: 'Roboto', sans-serif;
 }
+
+.footer-container {
+  border-bottom: 0.5px solid #8a8a8a;  
+}
+
+.footer-nav {
+  width: 33%;
+  margin: 2.5% 2.5% 7.5% 2.5%;
+}
+
+
+.footer-heading {
+  color: #8a8a8a;
+  border-bottom: 0.5px solid #8a8a8a;
+  margin-bottom: 2em;
+}
+
+.ft-list {
+  list-style: none;
+}
+
+.ft-link{
+  text-decoration: none;
+  color: #8a8a8a;
+  line-height: 2em;
+  font-weight: 300;
+}
+
+.copyright,
+.copyright-text  {
+  font-size: 14px;;
+  padding-top: 1.25%;
+  color: #8a8a8a;
+  text-decoration: none;
+}
+
