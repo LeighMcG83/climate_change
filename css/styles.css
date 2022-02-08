@@ -31,7 +31,8 @@ nav {
 }
 
 .active {
-  border-bottom: 1px solid rgb(35, 121, 10);
+  border-bottom: 3px solid rgb(62, 255, 4);
+  font-size: 1.2rem;
 }
 
 .logo-container {
@@ -58,8 +59,12 @@ nav {
 }
 
 /* =========== BODY STYLES =========== */
+html {
+  max-width: 100vw;
+}
 main {
   margin: 0 10%;
+  min-height: 100vh;
 }
 
 h1{
@@ -143,3 +148,59 @@ footer {
   text-align: center;
 }
 
+
+/* SMALL SCREENS - MOBILE */
+@media screen and (max-width: 576px) {
+  main {
+    padding: 0 1%;
+  }
+
+  .success-story {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  iframe,
+  .success-image {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    margin-bottom: 3rem;
+  }
+
+  iframe,
+  .success-text {
+    width: 100%;
+  }
+
+  .success-text {
+    margin: 0;
+  }
+}
+
+
+/* MEDIUM SCFEENS - tablet */
+
+@media screen and (max-width: 768px) {
+  .success-story {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  iframe,
+  .success-text {
+    width: 100%;
+  }
+
+  .success-text {
+    margin: 0;
+  }
+
+  iframe,
+  .success-image {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    margin-bottom: 3rem;
+  }
+}
