@@ -64,12 +64,25 @@ html {
 }
 
 main {
-  margin: 0 10%;
+  /* margin: 0 10%; */
   min-height: 100vh;
 }
 
+main {
+  background-image: url('/images/hero-leaf-contrast.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero-text-container {
+  width: 100vw;
+  max-height: fit-content;
+  padding-top: 40%;
+  padding-left: 15%;
+}
+
 h1 {
-  margin-top: 5%;
+  font-size: 3rem;
 }
 
 iframe {
