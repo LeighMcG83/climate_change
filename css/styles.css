@@ -68,9 +68,9 @@ main {
   min-height: 100vh;
 }
 
-main {
+.hero-section {
   background-image: url('/images/hero-leaf-contrast.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
