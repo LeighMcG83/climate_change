@@ -148,11 +148,11 @@ footer {
   font-size: 1.2rem;
 }
 
-.ft-list {
+.footer-list {
   list-style: none;
 }
 
-.ft-link {
+.footer-link {
   text-decoration: none;
   color: #8a8a8a;
   line-height: 2em;
@@ -353,7 +353,7 @@ footer {
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
+  margin: -100px 0 0 50px;
   padding: 50px;
   padding-top: 125px;
   
