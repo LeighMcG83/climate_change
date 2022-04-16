@@ -86,11 +86,30 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 4em 0;
 }
 
 .info-section {
-  margin: 4em 0;
+
   font-family: "Roboto", sans-serif;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  max-width: 47%;
+  max-height: 350px;
+  margin: 2em 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
 }
 
 .card-heading,
@@ -100,19 +119,9 @@ main {
   margin-bottom: 0.8em;
 }
 
-.info-card {
-  /* border: 1px solid #8a8a8a; */
-  border-radius: 8px;
-  max-width: 100%;
-  margin: 2em 1em;
-  font-family: "Roboto", sans-serif;
-  background-color: #f5f5f5;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.16);
-}
-
 .card-img {
-  max-height: 33%;
-  width: 100%;
+  max-height: auto;
+  width: 45%;
 }
 
 .btn-link {
@@ -177,30 +186,27 @@ iframe {
 
 /* =========== FOOTER STYLES =========== */
 footer {
-  width: 100vw;
-  background-color: #000;
-  height: 250px;
-  padding: 2.5% 14em;
-  font-family: "Roboto", sans-serif;
+
 }
 
 .footer-container {
-  border-bottom: 0.5px solid #8a8a8a;
-}
-
-.footer-nav {
-  width: 30%;
+  background-color: #000;
+  /* height: 250px; */
+  padding: 2em 1em;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-heading {
   color: #8a8a8a;
   border-bottom: 0.5px solid #8a8a8a;
-  margin-bottom: 2em;
   font-size: 1.2rem;
+  width: 100%;
 }
 
 .footer-list {
   list-style: none;
+  border-bottom: 0.5px solid #8a8a8a;
+  padding: 1em 0;
 }
 
 .footer-link {
@@ -220,6 +226,7 @@ footer {
 
 .copyright {
   text-align: center;
+  padding-top: 1.4em;
 }
 
 /* SMALL SCREENS - MOBILE */
@@ -257,7 +264,7 @@ footer {
 }
 /* MEDIUM SCREENS - tablet */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   main {
     margin: 0 2%;
   }
@@ -283,6 +290,10 @@ footer {
     min-height: 250px;
     max-height: 400px;
     margin-bottom: 2rem;
+  }
+
+  .footer-heading {
+    width: 33%;
   }
 
 }
