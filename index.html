@@ -1,76 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage</title>
+    <!-- ========= GOOGLE FONTS ========= -->
+    <!-- navigation fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- ========= GOOGLE FONTS ========= -->
-  <!-- navigation fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
+    <!-- logo font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- logo font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-  <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-  <header id="header">
-    <div id="menuToggle" class="logo-container">
-      <a href="index.html" class="logo">
-        <img class="logo-img" src="images/thermometer-logo.png" alt="webiste logo">
-        <span class="logo-text">Climate Change</span>
-      </a>
-    </div>
-    <nav id="navbar">
-      <ul class="nav-links">
-        <li><a class="nav-item active" href="index.html">Home</a></li>
-        <li><a class="nav-item" href="causes.html">Causes</a></li>
-        <li><a class="nav-item" href="effects.html">Effects</a></li>
-        <li><a class="nav-item" href="solutions.html">Solutions</a></li>
-        <li><a class="nav-item" href="about.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero-section">
-      <!-- <img src="/images/hero-tree.jpg" alt="image of a tree"> -->
-      <div class="hero-text-container">
-        <h1>Homepage</h1>
+  <body>
+    <header id="header">
+      <div id="menuToggle" class="logo-container">
+        <a href="index.html" class="logo">
+          <img
+            class="logo-img"
+            src="images/thermometer-logo.png"
+            alt="webiste logo"
+          />
+          <span class="logo-text">Climate Change</span>
+        </a>
       </div>
-    </section>
-  </main>
-
-  <footer id="footer">
-    <div class="footer-container">
-      <div class="footer-nav">
-        <div class="footer-heading">
-          <h3>Site map</h3>
-        </div>
-
-        <ul class="footer-list">
-          <li><a class="footer-link" href="index.html">Home</a></li>
-          <li><a class="footer-link" href="causes.html">Causes</a></li>
-          <li><a class="footer-link" href="effects.html">Effects</a></li>
-          <li><a class="footer-link" href="solutions.html">Solutions</a></li>
-          <li><a class="footer-link" href="about.html">About</a></li>
+      <nav id="navbar">
+        <ul class="nav-links">
+          <li><a class="nav-item active" href="index.html">Home</a></li>
+          <li><a class="nav-item" href="causes.html">Causes</a></li>
+          <li><a class="nav-item" href="effects.html">Effects</a></li>
+          <li><a class="nav-item" href="solutions.html">Solutions</a></li>
+          <li><a class="nav-item" href="about.html">About</a></li>
         </ul>
-      </div>
-    </div>
-    <p class="copyright">&copy; <a class="copyright-text" href="https:www.kuazone.com/">Kuazone</a> | 2022 | Design by
-      Leigh McGuinness</p>
-  </footer>
-</body>
+      </nav>
+      <section class="hero-section">
+        <div class="hero-text-container"></div>
+      </section>
+    </header>
 
+    <main id="main">
+      <section class="info-section">
+        <h1 class="slogan">Climate change needs ACTION now</h1>
+        <p class="slogan-subtext">
+          The first peoples hunted across their vast spaces. Later they settled
+          and began farming, turning grasslands into fields of corn, wheat or
+          other crops.
+        </p>
+        <span>
+          <i>Source:</i>
+          <a href="https://ourplanet.com/en/" target="_blank"> Our planet</a>
+        </span>
+      </section>
+
+      <section class="site-overview">
+        <article class="info-card">
+          <img
+            class="card-img"
+            src="images/coral.jpeg"
+            alt="image of coral reef"
+          />
+          <h2 class="card-heading">Save our Oceans</h2>
+          <div class="card-body">
+            <p>
+              Whether our homes are near or far from the sea, our lives depend
+              on our planet’s oceans. Covering about 70% of the earth’s surface,
+              our seas supply half the oxygen we breathe, and provide food and
+              livelihoods for more than a billion people.
+            </p>
+            <span>
+              <i>Source:</i>
+              <a href="https://ourplanet.com/en/" target="_blank">
+                Our planet</a
+              >
+            </span>
+          </div>
+          <a role="button" class="btn-link" href=".html" target="_blank"
+            >Read more
+          </a>
+        </article>
+
+        <article class="info-card">
+          <img
+            class="card-img"
+            src="images/polar-bear.jpg"
+            alt="image of polar bear"
+          />
+          <h2 class="card-heading">Stop global warming</h2>
+          <div class="card-body">
+            <p>
+              Whether our homes are near or far from the sea, our lives depend
+              on our planet’s oceans. Covering about 70% of the earth’s surface,
+              our seas supply half the oxygen we breathe, and provide food and
+              livelihoods for more than a billion people.
+            </p>
+            <span>
+              <i>Source:</i>
+              <a href="https://ourplanet.com/en/" target="_blank">
+                Our planet</a
+              >
+            </span>
+          </div>
+          <a role="button" class="btn-link" href=".html" target="_blank"
+            >Read more
+          </a>
+        </article>
+
+        <article class="info-card">
+          <img
+            class="card-img"
+            src="images/ice-cream.webp"
+            alt="image of an ice-cream melting"
+          />
+          <h2 class="card-heading">Stop global warming</h2>
+          <div class="card-body">
+            <p>
+              Whether our homes are near or far from the sea, our lives depend
+              on our planet’s oceans. Covering about 70% of the earth’s surface,
+              our seas supply half the oxygen we breathe, and provide food and
+              livelihoods for more than a billion people.
+            </p>
+            <span>
+              <i>Source:</i>
+              <a href="https://ourplanet.com/en/" target="_blank">
+                Our planet</a
+              >
+            </span>
+          </div>
+          <a role="button" class="btn-link" href=".html" target="_blank"
+            >Read more
+          </a>
+        </article>
+
+        <article class="info-card">
+          <img
+            class="card-img"
+            src="images/polar-bear.jpg"
+            alt="image of polar bear"
+          />
+          <h2 class="card-heading">Stop global warming</h2>
+          <div class="card-body">
+            <p>
+              Whether our homes are near or far from the sea, our lives depend
+              on our planet’s oceans. Covering about 70% of the earth’s surface,
+              our seas supply half the oxygen we breathe, and provide food and
+              livelihoods for more than a billion people.
+            </p>
+            <span>
+              <i>Source:</i>
+              <a href="https://ourplanet.com/en/" target="_blank">
+                Our planet</a
+              >
+            </span>
+          </div>
+          <a role="button" class="btn-link" href=".html" target="_blank"
+            >Read more
+          </a>
+        </article>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-nav">
+          <div class="footer-heading">
+            <h3>Site map</h3>
+          </div>
+
+          <ul class="footer-list">
+            <li><a class="footer-link" href="index.html">Home</a></li>
+            <li><a class="footer-link" href="causes.html">Causes</a></li>
+            <li><a class="footer-link" href="effects.html">Effects</a></li>
+            <li><a class="footer-link" href="solutions.html">Solutions</a></li>
+            <li><a class="footer-link" href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">
+        &copy;
+        <a class="copyright-text" href="https:www.kuazone.com/">Kuazone</a> |
+        2022 | Design by Leigh McGuinness
+      </p>
+    </footer>
+  </body>
 </html>
