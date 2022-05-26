@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 /* =========== HEADER STYLES =========== */
@@ -12,6 +13,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 15px;
+  margin-bottom: 1em;
 }
 
 .nav-item {
@@ -30,12 +32,8 @@
 
 .hero-img {
   width: 100vw;
-  margin: 1em 0;
 }
 
-.hero-section {
-  margin-top: 1em;
-}
 
 .hero-text-container {
   min-height: 500px;
@@ -94,9 +92,7 @@ main {
   justify-content: space-around;
 }
 
-.info-section {
-  font-family: "Roboto", sans-serif;
-}
+
 
 /* =========== Start of homework =========== */
 .card {
@@ -109,7 +105,6 @@ main {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-  font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
   overflow: scroll;
@@ -138,7 +133,7 @@ main {
 }
 
 .info-section-para {
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .btn-link {
@@ -161,12 +156,13 @@ main {
 /* =========== FOOTER STYLES =========== */
 footer {
   background-color: #3c4248;
+  color: #fefefe;
+  padding-top: 50px;
+  padding-left: 100px;
 }
 
 .footer-list {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 100px;
+
   list-style: none;
 }
 
@@ -190,10 +186,63 @@ footer {
 .copyright {
   text-align: center;
   padding-top: 1.4em;
+  padding-bottom: 0.5em;
 }
 
 /* May 28th */
 main {
   width: 65%;
   margin: auto;
+  padding: 4em 0;
 }
+
+.footer-heading {
+  margin-bottom: 1em;
+  font-size: 1.6rem;
+}
+
+.effects-hero-section{
+  background-image: url("images/girlfilling-water.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.effects-list-item {
+  margin-bottom: 2em;
+  max-width: 50%;
+}
+
+main > section {
+  margin-bottom: 4em;
+}
+
+.lrg-text {
+  font-size: 1.5rem;
+}
+
+.xl-text {
+  font-size: 2.2rem;
+}
+
+.red-text {
+  color: #ff0000;
+}
+
+.mb1 {
+  margin-bottom: 1em;
+}
+
+.mb2 {
+  margin-bottom: 2em;
+}
+
+.intro-section {
+  width: 65%;
+}
+
+/* 
+  copyright: padding bottom 
+  footer list color -> footer color
+  hero-img only width 100vw
+  info-section-para: line-height
+    */

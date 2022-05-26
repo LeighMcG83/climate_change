@@ -24,18 +24,18 @@
     />
 
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
     <header>
-      <nav>
+      <nav id="navbar">
         <ul class="nav-list">
-          <li class="nav-item"><a href="index.html">Home</a></li>
-          <li class="nav-item"><a href="causes.html">Causes</a></li>
-          <li class="nav-item"><a href="effects.html">Effects</a></li>
-          <li class="nav-item"><a href="solutions.html">Solution</a></li>
-          <li class="nav-item"><a href="about.html">About</a></li>
+          <li><a class="nav-item" href="index.html">Home</a></li>
+          <li><a class="nav-item active" href="causes.html">Causes</a></li>
+          <li><a class="nav-item" href="effects.html">Effects</a></li>
+          <li><a class="nav-item" href="solutions.html">Solutions</a></li>
+          <li><a class="nav-item" href="about.html">About</a></li>
         </ul>
       </nav>
     </header>
@@ -44,26 +44,29 @@
       <h1>Causes</h1>
     </main>
 
-    <footer>
-      <nav>
-        <ul class="footer-nav-list">
-          <li>
-            <a class="nav-list-item active" href="index.html">Home</a>
+    <footer id="footer">
+      <div class="footer-nav">
+        <div class="footer-heading">
+          <h3 class="footer-heading">Site map</h3>
+        </div>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a href="index.html">Home</a></li>
+          <li class="footer-list-item"><a href="causes.html">Causes</a></li>
+          <li class="footer-list-item"><a href="effects.html">Effects</a></li>
+          <li class="footer-list-item">
+            <a href="solutions.html">Solutions</a>
           </li>
-          <li>
-            <a class="nav-list-item" href="causes.html">Causes</a>
-          </li>
-          <li>
-            <a class="nav-list-item" href="effects.html">Effects</a>
-          </li>
-          <li>
-            <a class="nav-list-item" href="solutions.html">Solution</a>
-          </li>
-          <li>
-            <a class="nav-list-item" href="contact.html">Contact</a>
-          </li>
+          <li class="footer-list-item"><a href="about.html">About</a></li>
         </ul>
-      </nav>
+      </div>
+      <div class="copyright">
+        <p>
+          &copy;
+          <a class="copyright-text" href="https:www.kuazone.com/">Kuazone</a>
+          | 2022
+        </p>
+        <p>Design by Leigh McGuinness</p>
+      </div>
     </footer>
   </body>
 </html>
