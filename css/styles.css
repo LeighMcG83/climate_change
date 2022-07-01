@@ -34,7 +34,6 @@
   width: 100vw;
 }
 
-
 .hero-text-container {
   min-height: 500px;
   background-image: url("https://climate.nasa.gov/system/internal_resources/details/original/1191_1320_effects-image.jpg");
@@ -48,6 +47,7 @@ header {
 
 .active {
   border-bottom: 1px solid rgb(35, 121, 10);
+  font-weight: 700;
 }
 
 .logo-container {
@@ -61,14 +61,14 @@ header {
   text-decoration: none;
 }
 
-.logo-img { 
+.logo-img {
   height: 44px;
   width: auto;
   margin: auto;
 }
 
 .logo-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 11px;
   color: #000;
 }
@@ -82,7 +82,7 @@ main {
 .info-section {
   padding-top: 2em;
   padding-bottom: 2em;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .site-overview {
@@ -91,8 +91,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-
 
 /* =========== Start of homework =========== */
 .card {
@@ -108,10 +106,6 @@ main {
   background-color: #f5f5f5;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
   overflow: scroll;
-}
-
-.card-text {
-
 }
 
 .card-body {
@@ -145,7 +139,6 @@ main {
   float: right;
   margin-right: 1em;
   margin-bottom: 1em;
-
 }
 
 .btn-link:hover {
@@ -162,7 +155,6 @@ footer {
 }
 
 .footer-list {
-
   list-style: none;
 }
 
@@ -201,7 +193,7 @@ main {
   font-size: 1.6rem;
 }
 
-.effects-hero-section{
+.effects-hero-section {
   background-image: url("images/girlfilling-water.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -235,7 +227,7 @@ main > section {
   margin-bottom: 2em;
 }
 
-.centered{
+.centered {
   width: 65%;
   margin-left: 17.5%;
 }
@@ -247,16 +239,105 @@ copyright: padding bottom
   info-section-para: line-height
 */
 
-
 /* June 4th */
-  .tagline {
-    position: absolute;
-    bottom: 25%;
-    left: 5%;
-    font-size: 6em;
-    color: #fefefe;
-  }
-  
-  .effects-hero-section {
-    position: relative;
-  }
+.tagline {
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  font-size: 6em;
+  color: #fefefe;
+}
+
+.effects-hero-section {
+  position: relative;
+}
+
+/* about page styles */
+.about {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.profile-pic {
+  height: 28rem;
+  width: auto;
+  border-radius: 50%;
+}
+
+.image-greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-info {
+  padding-left: 4em;
+}
+
+.about-para {
+  line-height: 1.6;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-icon {
+  height: 100px;
+  width: auto;
+}
+
+.mt2 {
+  margin-top: 2em;
+}
+
+.mt4 {
+  margin-top: 4em;
+}
+
+.mt5 {
+  margin-top: 5em;
+}
+
+.small-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-icon-small {
+  height: 80px;
+  width: auto;
+}
+
+.icon-heading {
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.hobbies-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobbies {
+  max-width: 40%;
+}
+
+.contact-btn {
+  background-color: rgb(52, 49, 255);
+  color: white;
+  width: 60%;
+  margin-left: 20%;
+  border: none;
+  border-radius: 8px;;
+  padding: 10px 20px;
+}
+
+.contact-btn:hover {
+  background-color: rgb(81, 78, 255);
+  box-shadow: 4px 4px 8px rgba(37, 36, 117, 0.5);
+}
