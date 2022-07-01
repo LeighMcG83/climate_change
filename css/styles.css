@@ -209,7 +209,6 @@ main {
 
 .effects-list-item {
   margin-bottom: 2em;
-  max-width: 50%;
 }
 
 main > section {
@@ -236,13 +235,28 @@ main > section {
   margin-bottom: 2em;
 }
 
-.intro-section {
+.centered{
   width: 65%;
+  margin-left: 17.5%;
 }
 
 /* 
-  copyright: padding bottom 
+copyright: padding bottom 
   footer list color -> footer color
   hero-img only width 100vw
   info-section-para: line-height
-    */
+*/
+
+
+/* June 4th */
+  .tagline {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    font-size: 6em;
+    color: #fefefe;
+  }
+  
+  .effects-hero-section {
+    position: relative;
+  }
