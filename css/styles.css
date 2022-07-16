@@ -1,235 +1,235 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 /* =========== HEADER STYLES =========== */
 .nav-list {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-  background-color: #fefefe;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 15px;
-  margin-bottom: 1em;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: #fefefe;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    margin-bottom: 1em;
 }
 
 .nav-item {
-  font-size: 16px;
-  color: #404040;
-  margin-left: 20px;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  text-decoration: none;
+    font-size: 16px;
+    color: #404040;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: none;
 }
 
 .nav-item:hover {
-  color: #242424;
-  font-weight: 700;
+    color: #242424;
+    font-weight: 700;
 }
 
 .hero-img {
-  width: 100vw;
+    width: 100vw;
 }
 
 .hero-text-container {
-  min-height: 500px;
-  background-image: url("https://climate.nasa.gov/system/internal_resources/details/original/1191_1320_effects-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    min-height: 500px;
+    background-image: url("https://climate.nasa.gov/system/internal_resources/details/original/1191_1320_effects-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
-  padding: 1em 0;
+    padding: 1em 0;
 }
 
 .active {
-  border-bottom: 1px solid rgb(35, 121, 10);
-  font-weight: 700;
+    border-bottom: 1px solid rgb(35, 121, 10);
+    font-weight: 700;
 }
 
 .logo-container {
-  position: absolute;
-  left: 5%;
+    position: absolute;
+    left: 5%;
 }
 
 .logo {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
 
 .logo-img {
-  height: 44px;
-  width: auto;
-  margin: auto;
+    height: 44px;
+    width: auto;
+    margin: auto;
 }
 
 .logo-text {
-  font-family: "Montserrat", sans-serif;
-  font-size: 11px;
-  color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    color: #000;
 }
 
 /* =========== MAIN SECTION STYLES =========== */
 main {
-  padding-top: 2em;
-  padding-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .info-section {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  font-family: "Roboto", sans-serif;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: "Roboto", sans-serif;
 }
 
 .site-overview {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* =========== Start of homework =========== */
 .card {
-  display: flex;
-  flex-direction: row;
-  border-radius: 10px;
-  max-width: 45%;
-  max-height: 350px;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  background-color: #f5f5f5;
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
-  overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    max-width: 45%;
+    max-height: 350px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #f5f5f5;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
+    overflow: scroll;
 }
 
 .card-body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-heading,
 .card-body {
-  line-height: 1.5;
-  padding: 0 1em;
-  margin-bottom: 0.8em;
+    line-height: 1.5;
+    padding: 0 1em;
+    margin-bottom: 0.8em;
 }
 
 .card-img {
-  max-height: auto;
-  width: 50%;
-  padding-bottom: 2em;
+    max-height: auto;
+    width: 50%;
+    padding-bottom: 2em;
 }
 
 .info-section-para {
-  line-height: 1.4;
+    line-height: 1.4;
 }
 
 .btn-link {
-  background-color: #2222cf;
-  color: white;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  border-radius: 20px;
-  float: right;
-  margin-right: 1em;
-  margin-bottom: 1em;
+    background-color: #2222cf;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 20px;
+    float: right;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .btn-link:hover {
-  background-color: #1111b1;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.16);
+    background-color: #1111b1;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 /* =========== FOOTER STYLES =========== */
 footer {
-  background-color: #3c4248;
-  color: #fefefe;
-  padding-top: 50px;
-  padding-left: 100px;
+    background-color: #3c4248;
+    color: #fefefe;
+    padding-top: 50px;
+    padding-left: 100px;
 }
 
 .footer-list {
-  list-style: none;
+    list-style: none;
 }
 
 .footer-list-item > a {
-  line-height: 2.2;
-  text-decoration: none;
-  font-size: 1em;
-  font-family: sans-serif;
-  color: #fefefe;
-  text-transform: uppercase;
+    line-height: 2.2;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #fefefe;
+    text-transform: uppercase;
 }
 
 .copyright,
 .copyright-text {
-  font-size: 14px;
-  padding-top: 1.25%;
-  color: #8a8a8a;
-  text-decoration: none;
+    font-size: 14px;
+    padding-top: 1.25%;
+    color: #8a8a8a;
+    text-decoration: none;
 }
 
 .copyright {
-  text-align: center;
-  padding-top: 1.4em;
-  padding-bottom: 0.5em;
+    text-align: center;
+    padding-top: 1.4em;
+    padding-bottom: 0.5em;
 }
 
 /* May 28th */
 main {
-  width: 65%;
-  margin: auto;
-  padding: 4em 0;
+    width: 65%;
+    margin: auto;
+    padding: 4em 0;
 }
 
 .footer-heading {
-  margin-bottom: 1em;
-  font-size: 1.6rem;
+    margin-bottom: 1em;
+    font-size: 1.6rem;
 }
 
 .effects-hero-section {
-  background-image: url("images/girlfilling-water.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("images/girlfilling-water.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .effects-list-item {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 main > section {
-  margin-bottom: 4em;
+    margin-bottom: 4em;
 }
 
 .lrg-text {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .xl-text {
-  font-size: 2.2rem;
+    font-size: 2.2rem;
 }
 
 .red-text {
-  color: #ff0000;
+    color: #ff0000;
 }
 
 .mb1 {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .mb2 {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 .centered {
-  width: 65%;
-  margin-left: 17.5%;
+    width: 65%;
+    margin-left: 17.5%;
 }
 
 /* 
@@ -241,103 +241,102 @@ copyright: padding bottom
 
 /* June 4th */
 .tagline {
-  position: absolute;
-  bottom: 25%;
-  left: 5%;
-  font-size: 6em;
-  color: #fefefe;
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    font-size: 6em;
+    color: #fefefe;
 }
 
 .effects-hero-section {
-  position: relative;
+    position: relative;
 }
 
 /* about page styles */
 .about {
-  display: flex;
-  flex-direction: row;
-
+    display: flex;
+    flex-direction: row;
 }
 
 .profile-pic {
-  height: 28rem;
-  width: auto;
-  border-radius: 50%;
+    height: 28rem;
+    width: auto;
+    border-radius: 50%;
 }
 
 .image-greeting {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-info {
-  padding-left: 4em;
+    padding-left: 4em;
 }
 
 .about-para {
-  line-height: 1.6;
+    line-height: 1.6;
 }
 
 .skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .skill-icon {
-  height: 100px;
-  width: auto;
+    height: 100px;
+    width: auto;
 }
 
 .mt2 {
-  margin-top: 2em;
+    margin-top: 2em;
 }
 
 .mt4 {
-  margin-top: 4em;
+    margin-top: 4em;
 }
 
 .mt5 {
-  margin-top: 5em;
+    margin-top: 5em;
 }
 
 .small-icon-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skill-icon-small {
-  height: 80px;
-  width: auto;
+    height: 80px;
+    width: auto;
 }
 
 .icon-heading {
-  font-weight: 900;
-  font-size: 1.2em;
+    font-weight: 900;
+    font-size: 1.2em;
 }
 
 .hobbies-contact {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hobbies {
-  max-width: 40%;
+    max-width: 40%;
 }
 
 .contact-btn {
-  background-color: rgb(52, 49, 255);
-  color: white;
-  width: 60%;
-  margin-left: 20%;
-  border: none;
-  border-radius: 8px;;
-  padding: 10px 20px;
+    background-color: rgb(52, 49, 255);
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
 }
 
 .contact-btn:hover {
-  background-color: rgb(81, 78, 255);
-  box-shadow: 4px 4px 8px rgba(37, 36, 117, 0.5);
+    background-color: rgb(81, 78, 255);
+    box-shadow: 4px 4px 8px rgba(37, 36, 117, 0.5);
 }
