@@ -1,161 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
 
-    <!-- ========= GOOGLE FONTS ========= -->
-    <!-- navigation fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
 
-    <!-- logo font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
+  <!-- ========= GOOGLE FONTS ========= -->
+  <!-- navigation fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
+  <!-- logo font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-  <body>
-    <header id="header">
-      <div class="logo-container">
-        <a href="index.html" class="logo">
-          <img
-            class="logo-img"
-            src="images/thermometer-logo.png"
-            alt="webiste logo"
-          />
-          <span class="logo-text">Climate Change</span>
-        </a>
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a class="nav-item " href="index.html">Home</a></li>
+        <li><a class="nav-item" href="causesAndEffects.html">Causes and Effects</a></li>
+        <li><a class="nav-item" href="solutions.html">Solutions</a></li>
+        <li><a class="nav-item active" href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-about">
+
+    <div class="about">
+      <div class="image-greeting">
+        <h1 class="xl-text mb1">Hi, I'm Leigh</h1>
+        <img src="https://japanpowered.com/media/images//goku.png" alt="profile image" class="profile-pic mb2" />
       </div>
-      <nav id="navbar">
-        <ul class="nav-list">
-          <li><a class="nav-item" href="index.html">Home</a></li>
-          <li><a class="nav-item" href="causes.html">Causes</a></li>
-          <li><a class="nav-item" href="effects.html">Effects</a></li>
-          <li><a class="nav-item" href="solutions.html">Solutions</a></li>
-          <li><a class="nav-item active" href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <main id="main">
-      <div class="about">
-        <div class="image-greeting">
-          <h1 class="xl-text mb1">Hi I'm Leigh</h1>
-          <img
-            src="images/batman.webp"
-            alt="profile image"
-            class="profile-pic mb2"
-          />
-        </div>
+      <div class="about-info">
+        <h3 class="lrg-text mb1">About me</h3>
+        <p class="about-para">
+          <!-- 
+          Replace "My name is Leigh" with your own information, 
+          talk about where you are from, what you are learning, 
+          the reasons you created a climate change website, 
+          and any other interesting things about yourself. 
+          The idea is to introduce yourself to a stranger visiting the site.
+        -->
+          I am a superhero turned web developer. In my previous role I tried to make Gotham a better and safer city for
+          veryone, but now I have a greater mission....saving the world instead of one city. By creating this website I
+          am hoping to raise awareness of the problems faced by planet Earth, it's wildlife and people just like you and
+          I. By sharing this website with everyone you know you can be a superhero too.
+        </p>
 
-        <div class="about-info">
-          <h3 class="lrg-text mb1">About me</h3>
-          <p class="about-para">
-            I am a superhero turned web developer. In my previous role I tried
-            to make Gotham a better and safer city for veryone, but now I have a
-            greater mission....saving the world instead of one city. By creating
-            this website I am hoping to raise awareness of the problems faced by
-            planet Earth, it's wildlife and people just like you and I. By
-            sharing this website with everyone you know you can be a superhero
-            too.
-          </p>
-          <h3 class="lrg-text mt2 mb1">My skills</h3>
-          <div class="skills">
-            <img
-              src="images/html-icon.png"
-              alt="html icon"
-              class="skill-icon mb1"
-            />
-            <img
-              src="images/css-icon.png"
-              alt="css icon"
-              class="skill-icon mb1"
-            />
-            <div class="small-icon-container">
-              <h4 class="icon-heading">Teamwork</h4>
-              <img
-                src="images/teamwork-icon.png"
-                alt="teamwork icon"
-                class="skill-icon-small mb1"
-              />
-            </div>
-            <div class="small-icon-container">
-              <h4 class="icon-heading">Collaboration</h4>
-              <img
-                src="images/collaboration-icon.png"
-                alt="collaboration icon"
-                class="skill-icon-small mb1"
-              />
-            </div>
-            <div class="small-icon-container">
-              <h4 class="icon-heading">E-learning</h4>
-              <img
-                src="images/e-learning-icon.png"
-                alt="w-kearning icon"
-                class="skill-icon-small mb1"
-              />
-            </div>
+        <h3 class="lrg-text mt2 mb1">My skills</h3>
+        <div class="skills">
+          <img src="images/html-icon.png" alt="html icon" class="skill-icon mb1" />
+          <img src="images/css-icon.png" alt="css icon" class="skill-icon mb1" />
+          <div class="small-icon-container">
+            <h4 class="icon-heading">Teamwork</h4>
+            <img src="images/teamwork-icon.png" alt="teamwork icon" class="skill-icon-small mb1" />
+          </div>
+          <div class="small-icon-container">
+            <h4 class="icon-heading">Collaboration</h4>
+            <img src="images/collaboration-icon.png" alt="collaboration icon" class="skill-icon-small mb1" />
+          </div>
+          <div class="small-icon-container">
+            <h4 class="icon-heading">E-learning</h4>
+            <img src="images/e-learning-icon.png" alt="e-learning icon" class="skill-icon-small mb1" />
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="mt2 hobbies-contact">
-        <div class="hobbies">
-          <h3 class="lrg-text mb1">Other interests</h3>
-          <p class="about-para">
-            When I am not saving the planet I enjoy reading book, learning to
-            code and meeting up with my friends. Supporting good causes is very
-            important to me. Right now I am working in a group that is trying to
-            end bullying and racism everywhere that we find it.
-          </p>
-        </div>
-        <div class="contact">
-          <h3 class="contact lrg-text mb1">Get in touch</h3>
-          <p class="about-oara mb1">
-            Want to hear mre about what I do? Contact me through Kuazone, my
-            online learning school.
-          </p>
-          <button class="contact-btn lrg-text">Let's talk</button>
-        </div>
-      </div>
-    </main>
+  </main>
 
-    <footer id="footer">
-      <div class="footer-nav">
-        <div class="footer-heading">
-          <h3 class="footer-heading">Site map</h3>
-        </div>
-        <ul class="footer-list">
-          <li class="footer-list-item"><a href="index.html">Home</a></li>
-          <li class="footer-list-item"><a href="causes.html">Causes</a></li>
-          <li class="footer-list-item"><a href="effects.html">Effects</a></li>
-          <li class="footer-list-item">
-            <a href="solutions.html">Solutions</a>
-          </li>
-          <li class="footer-list-item"><a href="about.html">About</a></li>
-        </ul>
-      </div>
-      <div class="copyright">
-        <p>
-          &copy;
-          <a class="copyright-text" href="https:www.kuazone.com/">Kuazone</a>
-          | 2022
-        </p>
-        <p>Design by Leigh McGuinness</p>
-      </div>
-    </footer>
-  </body>
+  <footer>
+    <nav>
+      <ul>
+        <li class="footer-list-item"><a href="index.html">Home</a></li>
+        <li class="footer-list-item"><a href="causesAndEffects.html">Causes</a></li>
+        <li class="footer-list-item"><a href="solutions.html">Solutions</a></li>
+        <li class="footer-list-item"><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
 </html>
