@@ -66,7 +66,6 @@
 
 /* =========== MAIN SECTION STYLES =========== */
 main {
-    padding-top: 2em;
     padding-bottom: 2em;
 }
 
@@ -325,6 +324,8 @@ footer {
             - lrg-text mb1
         - edit reference
             - mb2
+    main
+        - remove padding-top: 2em;
     footer
         - causes and effects link text
         - move paddings to <footer>
@@ -340,7 +341,18 @@ footer {
        
 */
 .hero-section {
-    min-height: 100vw;
+    height: 100vh;
+    background: url("../images/tiger-in-sunlight.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.hero-section::after {
+    height: 100vh;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .margin-top-bottom {
@@ -352,7 +364,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #000;
+    background-color: rgb(150, 155, 138);
+    padding-top: 8em;
+    padding-bottom: 8em;
+    padding-left: 8em;
+    padding-right: 8em;
 }
 
 .card-vertical {
@@ -360,6 +376,52 @@ footer {
     flex-direction: column;
     height: 300px;
     width: 300px;
-    background-color: #1111b1;
+    margin-top: 0;
     overflow: hidden;
+    position: relative;
+}
+
+.title-light {
+    font-family: "Roboto", sans-serif;
+    color: #ebebeb;
+    align-self: flex-end;
+    margin-left: 14rem;
+}
+
+.card-img-vert {
+    width: 100%;
+    height: 100%;
+}
+
+.card-title-vert {
+    z-index: 1;
+    color: #ebebeb;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.opacity50 {
+    background-color: rgba(1, 1, 1, 0.6);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.bottom-left > * {
+    position: static;
+}
+
+.text-light {
+    color: #ebebeb;
+}
+
+.text-grey {
+    color: rgba(222, 222, 222, 0.8);
 }
