@@ -304,7 +304,7 @@ footer {
     margin-left: 15vw;
 }
 
-/*  july 23rd class work */
+/*  july 30th class work */
 
 .effects-hero-img {
     background-image: url("/images/effects-image.jpg");
@@ -329,6 +329,7 @@ footer {
         - causes and effects link text
         - move paddings to <footer>
         - remove "site map"
+        - copy paste from index.html
 
     header 
         - invrease pt and pb to 40px
@@ -336,13 +337,29 @@ footer {
     
     about.html
         - profile-pic: 20rem
+       
 */
+.hero-section {
+    min-height: 100vw;
+}
 
-/* ==================================================== */
+.margin-top-bottom {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
 
-/* July 30th classwork */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000;
+}
 
-/* 
-    footer
-        - copy paste from index.html
-*/
+.card-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    background-color: #1111b1;
+    overflow: hidden;
+}
