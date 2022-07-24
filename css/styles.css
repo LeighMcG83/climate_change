@@ -364,11 +364,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(150, 155, 138);
+    background-color: rgb(231, 233, 229);
     padding-top: 8em;
     padding-bottom: 8em;
-    padding-left: 8em;
-    padding-right: 8em;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 .card-vertical {
@@ -379,6 +379,7 @@ footer {
     margin-top: 0;
     overflow: hidden;
     position: relative;
+    min-width: 250px;
 }
 
 .title-light {
@@ -425,3 +426,25 @@ footer {
 .text-grey {
     color: rgba(222, 222, 222, 0.8);
 }
+
+/* August 6th classwork*/
+
+.solution-details {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.mt5 {
+    margin-top: 5rem;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+/*  .cards
+        - add id's to h1's
+        - wrap in anchor tags
+
+*/
